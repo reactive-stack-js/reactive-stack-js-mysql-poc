@@ -1,7 +1,9 @@
-# reactive-stack-js-mysql-poc
-reactive-stack-js mysql poc
+![reactive-stack-js](https://avatars0.githubusercontent.com/u/72337471?s=75)
+## reactive-stack-js-mysql-poc
 
-## mysql
+See [reactive-stack-js](https://github.com/reactive-stack-js) for more info.
+
+### mysql
 
 docker pull mysql
 docker run -p 3306:3306 -v C:/git/systools/fiddles/dbmirror/mysqlconf:/etc/mysql/conf.d -v C:/git/systools/fiddles/dbmirror/mysqlvolume:/var/lib/mysql --name mysql -e MYSQL_ROOT_PASSWORD=root -d mysql
