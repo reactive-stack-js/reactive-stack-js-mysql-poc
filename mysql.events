@@ -1,0 +1,71 @@
+{
+    "type": "INSERT",
+    "schema": "db2mirror",
+    "table": "glob_locks",
+    "affectedRows": [
+        {
+            "after": {
+                "GLOB_LOCK_ID": 2,
+                "RES_NAME": "yei",
+                "MESSAGE": "msg"
+            }
+        }
+    ],
+    "affectedColumns": [
+        "GLOB_LOCK_ID",
+        "RES_NAME",
+        "MESSAGE"
+    ],
+    "timestamp": 1605436275000,
+    "nextPosition": 2349,
+    "binlogName": "bin.000003"
+}
+
+{
+    "type": "UPDATE",
+    "schema": "db2mirror",
+    "table": "glob_locks",
+    "affectedRows": [
+        {
+            "after": {
+                "GLOB_LOCK_ID": 2,
+                "RES_NAME": "yei 2",
+                "MESSAGE": "msg"
+            },
+            "before": {
+                "GLOB_LOCK_ID": 2,
+                "RES_NAME": "yei",
+                "MESSAGE": "msg"
+            }
+        }
+    ],
+    "affectedColumns": [
+        "RES_NAME"
+    ],
+    "timestamp": 1605436292000,
+    "nextPosition": 2689,
+    "binlogName": "bin.000003"
+}
+
+{
+    "type": "DELETE",
+    "schema": "db2mirror",
+    "table": "glob_locks",
+    "affectedRows": [
+        {
+            "before": {
+                "GLOB_LOCK_ID": 2,
+                "RES_NAME": "yei 2",
+                "MESSAGE": "msg"
+            }
+        }
+    ],
+    "affectedColumns": [
+        "GLOB_LOCK_ID",
+        "RES_NAME",
+        "MESSAGE"
+    ],
+    "timestamp": 1605436304000,
+    "nextPosition": 3003,
+    "binlogName": "bin.000003"
+}
