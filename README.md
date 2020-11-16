@@ -34,9 +34,11 @@ Or you can use the console:
 ```cmd
 docker exec -it mysql bash
 ```
+Then:
 ```mysql
 mysql -u root -p db2mirror
 ```
+And use the password ```root```, or whatever you specified in the docker run command.
 
 __NOTE__: _You will have to create db2mirror once, of course._
 
