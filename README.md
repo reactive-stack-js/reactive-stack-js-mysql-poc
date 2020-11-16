@@ -12,7 +12,7 @@ You can, of course, still use your own MySQL installation instead. Just skip all
 ### Requirements
 Well, [Docker](https://www.docker.com/).
 
-And, [NodeJS](https://nodejs.org/)
+And [NodeJS](https://nodejs.org/)
 
 ### Docker stuff
 
