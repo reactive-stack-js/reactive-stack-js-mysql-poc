@@ -4,10 +4,7 @@
 	"description": "reactive-stack-js mysql poc",
 	"author": "Predrag Stojadinovic <predrag@stojadinovic.net>",
 	"scripts": {
-		"run": "node mysql.js",
-		"format": "prettier --write \"**/*.js\"",
-		"last": "yarn upgrade-interactive --latest",
-		"up": "yarn upgrade-interactive"
+		"cdc": "node mysql.js"
 	},
 	"dependencies": {
 		"@rodrigogs/mysql-events": "^0.6.0",
